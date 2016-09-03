@@ -1,3 +1,4 @@
+```javascript
 // One of the biggest challenges I've seen people face when using promises
 // has to do with how to keep functions in a chain "pure". In other words, 
 // how can functions in a promise chain have only one output for a unique 
@@ -58,3 +59,4 @@ getInfo()
 
 // While the first step does have to know about storeInfo, it doesn't have to know about actual external states.
 // It's not perfect, but it does make your chain look cleaner, more readable, and pure.
+```
